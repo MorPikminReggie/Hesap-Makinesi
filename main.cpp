@@ -16,7 +16,7 @@ int main()
 		cin >> input;
 		sayilar = new double[input + 1];
 		oper = new char[input];
-		cout << "PLEASE ENTER AN OPERATION" << endl;
+		cout << "PLEASE ENTER AN OPERATION(use '|' for base operations)" << endl;
 		cin >> sayilar[0];
 		for (int i = 0; i < input; i++)
 		{
